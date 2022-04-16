@@ -1,1 +1,0 @@
-# configuration-for-website-basic
