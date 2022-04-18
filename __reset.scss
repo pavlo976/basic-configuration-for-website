@@ -32,6 +32,9 @@ button {
     cursor: pointer;
 }
 
+button:focus{
+    outline: auto;
+}
 
 textarea {
     resize: vertical;
