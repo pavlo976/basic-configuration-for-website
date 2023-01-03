@@ -1,6 +1,7 @@
 Remove "main" property from package.json file
 Install parcel with --save-dev flag
-If something wrong, uninstall parcel via "npm uninstall parcel" and delete cache from workspace
+If something wrong, uninstall parcel via "npm uninstall parcel" and delete cache from workspace,
+In script tag in HTML, add type="module". At least in version 2 of Parcel.
 
 
 
