@@ -1,0 +1,60 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffd700",
+    "editorBracketHighlight.foreground2": "#ff00ff",
+    "editorBracketHighlight.foreground3": "#00ff73",
+    "editorBracketHighlight.foreground4": "#00bfff",
+    "editorBracketHighlight.foreground5": "#a900f7",
+    "editorBracketHighlight.foreground6": "#f3f4f7",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
+
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.bracketSameLine": true,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true,
+  "prettier.printWidth": 120,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 2
+    }
+  },
+  "emmet.variables": {
+    "lang": "pl"
+  },
+  "workbench.colorTheme": "Bearded Theme Arc Blueberry",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "update.mode": "none",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.letterSpacing": 0.2,
+  "editor.fontSize": 15,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "files.autoSave": "onFocusChange"
+}
