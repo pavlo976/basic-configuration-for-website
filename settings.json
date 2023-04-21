@@ -6,8 +6,7 @@
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "eslint.validate": [
-    "javascript",
-    "html"
+    "javascript"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
