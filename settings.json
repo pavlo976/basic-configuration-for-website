@@ -1,9 +1,17 @@
 {
-  "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDragAndDrop": false,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "html"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
   "workbench.iconTheme": "material-icon-theme",
@@ -19,17 +27,9 @@
     "editorBracketHighlight.foreground6": "#f3f4f7",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
-
-  "prettier.arrowParens": "avoid",
-  "prettier.jsxSingleQuote": true,
-  "prettier.bracketSameLine": true,
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true,
-  "prettier.printWidth": 120,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-
   "emmet.syntaxProfiles": {
     "html": {
       "inline_break": 2
@@ -55,6 +55,6 @@
   "editor.smoothScrolling": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": true,
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "files.autoSave": "onFocusChange"
 }
