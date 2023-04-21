@@ -1,59 +1,68 @@
 {
-  "explorer.confirmDragAndDrop": false,
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "eslint.validate": [
-    "javascript"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.linkedEditing": true,
-  "editor.cursorBlinking": "expand",
-  "workbench.iconTheme": "material-icon-theme",
-  "security.workspace.trust.enabled": false,
-  "breadcrumbs.enabled": false,
-  "editor.bracketPairColorization.enabled": true,
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#ffd700",
-    "editorBracketHighlight.foreground2": "#ff00ff",
-    "editorBracketHighlight.foreground3": "#00ff73",
-    "editorBracketHighlight.foreground4": "#00bfff",
-    "editorBracketHighlight.foreground5": "#a900f7",
-    "editorBracketHighlight.foreground6": "#f3f4f7",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "emmet.syntaxProfiles": {
-    "html": {
-      "inline_break": 2
-    }
-  },
-  "emmet.variables": {
-    "lang": "pl"
-  },
-  "workbench.colorTheme": "Bearded Theme Arc Blueberry",
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    }
-  ],
-  "update.mode": "none",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.letterSpacing": 0.2,
-  "editor.fontSize": 15,
-  "editor.cursorSmoothCaretAnimation": true,
-  "workbench.list.smoothScrolling": true,
-  "editor.smoothScrolling": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.guides.bracketPairs": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "files.autoSave": "onFocusChange"
+	"explorer.confirmDragAndDrop": false,
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"eslint.validate": ["javascript"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+	"workbench.iconTheme": "material-icon-theme",
+	"security.workspace.trust.enabled": false,
+	"breadcrumbs.enabled": false,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00ff73",
+		"editorBracketHighlight.foreground4": "#00bfff",
+		"editorBracketHighlight.foreground5": "#a900f7",
+		"editorBracketHighlight.foreground6": "#f3f4f7",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+
+	"prettier.printWidth": 120,
+	"prettier.bracketSameLine": true,
+	"prettier.useTabs": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.semi": false,
+
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"workbench.colorTheme": "Bearded Theme Arc Blueberry",
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		}
+	],
+	"update.mode": "none",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.letterSpacing": 0.2,
+	"editor.fontSize": 15,
+	"editor.cursorSmoothCaretAnimation": true,
+	"workbench.list.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairs": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"files.autoSave": "onFocusChange"
 }
