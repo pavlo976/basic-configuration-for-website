@@ -2,7 +2,7 @@
 ESLINT INSTALL GUIDE
 ====================
 
-1). npm install eslint
+1). npm install eslint --save-dev
 2). ./node_modules/.bin/eslint --init
 3). === To check syntax, find problems, and enforce code style,
     === JavaScript modules (import/export),
