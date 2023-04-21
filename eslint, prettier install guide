@@ -1,0 +1,22 @@
+====================
+ESLINT INSTALL GUIDE
+====================
+
+1). npm install eslint
+2). ./node_modules/.bin/eslint --init
+3). === To check syntax, find problems, and enforce code style,
+    === JavaScript modules (import/export),
+    === None of these (if you write in vanilla JS),
+    === No (Does your project use TypeScript? (Of course, if you use TypeScript, definitely choose that option to yes)),
+    === Browser,
+    === AIRBNB (Of course, choose style guide you like more, depending on your preferences),
+    === JavaScript
+    === Yes
+
+Install plug to VSCode "ESLint" which shows you errors in code.
+
+======================
+PRETTIER INSTALL GUIDE
+======================
+
+1). npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
