@@ -1,46 +1,60 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-a {
-    text-decoration: none;
+ol,
+ul {
+	list-style-type: none;
 }
 
 input,
 button,
 textarea,
 select {
-    font-family: inherit;
+	font-family: inherit;
 }
 
-button {
-    border: none;
-    cursor: pointer;
+button:not(:focus-visible) {
+	cursor: pointer;
+	transition: all 0.2s;
+	border: 1px solid transparent;
 }
 
-button:focus{
-    outline: auto;
+button:focus-visible {
+	border: 1px solid #000;
+}
+
+input:not(:focus-visible) {
+	outline: 1px solid transparent;
+}
+
+input:focus-visible {
+	outline: 1px solid #000;
+}
+
+a {
+	text-decoration: none;
 }
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
 }
