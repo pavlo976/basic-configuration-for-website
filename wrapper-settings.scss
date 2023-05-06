@@ -1,7 +1,7 @@
 .wrapper {
     position: relative;
-    padding: 0 2em;
+    padding: 0 clamp(4em, 8vw, 6em);
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
